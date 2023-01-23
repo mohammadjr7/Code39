@@ -51,5 +51,19 @@ namespace Code_39.Renderer
         {
             Bar.QuietZone();
         }
+
+
+        /* Validation Methdos: */
+        public static void ValidateBarcode(Code[] codes, string text)
+        {
+            for (int i = 0; i < codes.Length; i++)
+            {
+                if (codes[i] == null)
+                {
+                    Console.WriteLine($"[ERROR] Use of illegal character: {text[i]}");
+                    Environment.Exit(1);
+                }
+            }
+        }
     }
 }

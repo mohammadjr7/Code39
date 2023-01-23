@@ -12,10 +12,18 @@ namespace Code_39
 
             Code[] code = Encoder.Encoder.Encode(input);
 
+
+            Renderer.Renderer.ValidateBarcode(code, input);
+
             code = Encoder.Encoder.AddStartCharacter(code);
             code = Encoder.Encoder.AddEndCharacter(code);
 
             Renderer.Renderer.SetBarcodeMode();
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
             Renderer.Renderer.RenderBarcode(code);
             Renderer.Renderer.RenderBarcode(code);
             Renderer.Renderer.RenderBarcode(code);

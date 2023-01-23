@@ -66,14 +66,190 @@
                                                            Bar.WIDE, Bar.NARROW_SPACE,
                                                            Bar.NARROW});
 
+        // [Barcode Properties: Alphabet]
+        public static Code letterA = new Code('a', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterB = new Code('b', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterC = new Code('c', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterD = new Code('d', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterE = new Code('e', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterF = new Code('f', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterG = new Code('g', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterH = new Code('h', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterI = new Code('i', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterJ = new Code('j', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterK = new Code('k', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterL = new Code('l', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterM = new Code('m', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterN = new Code('n', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterO = new Code('o', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterP = new Code('p', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterQ = new Code('q', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterR = new Code('r', new string[] {Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterS = new Code('s', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterT = new Code('t', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterU = new Code('u', new string[] {Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterV = new Code('v', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterW = new Code('w', new string[] {Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterX = new Code('x', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code letterY = new Code('y', new string[] {Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code letterZ = new Code('z', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
 
-        // ------------------------------
-        // TODO: Add remaining characters
-        // ------------------------------
+        // [Barcode Properties: Miscellaneous]
+        public static Code hyphen = new Code('-', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.WIDE});
+        public static Code dot = new Code('.', new string[] {Bar.WIDE, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code space = new Code(' ', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.WIDE, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code dollor = new Code('$', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW});
+        public static Code slash = new Code('/', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code plus = new Code('+', new string[] {Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
+        public static Code percent = new Code('%', new string[] {Bar.NARROW, Bar.NARROW_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW, Bar.WIDE_SPACE,
+                                                           Bar.NARROW});
 
         // [Barcode Properties: Codepoints array]
-        public static Code[] codes = {asterix, numZero, numOne, numTwo, numThree, numFour,
-                                     numFive, numSix, numSeven, numEight, numNine};
+        public static Code[] codes = {
+                                     // Start/Stop Character
+                                     asterix,
+                                     // Numbers
+                                     numZero, numOne, numTwo, numThree, numFour, numFive,
+                                     numSix, numSeven, numEight, numNine, 
+                                     // Alphabetic
+                                     letterA, letterB, letterC, letterD, letterE, letterF,
+                                     letterG, letterH, letterI, letterJ, letterK, letterL,
+                                     letterM, letterN, letterO, letterP, letterQ, letterR,
+                                     letterS, letterT, letterU, letterV, letterW, letterX,
+                                     letterY, letterZ,
+                                     // Miscellaneous
+                                     hyphen, dot, space, dollor, slash, plus, percent};
 
 
         // [Methods]
@@ -88,9 +264,16 @@
             {
                 foreach (Code code in codes)
                 {
-                    if (character == code.Symbol)
+                    try
                     {
-                        buffer[counter++] = code;
+                        if (character == code.Symbol)
+                        {
+                            buffer[counter++] = code;
+                        }
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine($"[ERROR] Something went wrong when reaing: {character}.");
                     }
                 }
             }
@@ -123,9 +306,13 @@
         {
             string buffer;
             text = text.Trim();
+            text = text.ToLower();
             if (text != "")
             {
-                buffer = text.Replace("*", "0"); //TODO: Replace with [-] hyphen
+                buffer = text.Replace("*", "-");
+                buffer = text.Replace("_", "-");
+                buffer = text.Replace("(", "/");
+                buffer = text.Replace(")", "/");
                 return buffer;
             }
             else
