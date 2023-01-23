@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Code_39.Encoder
+﻿namespace Code_39.Encoder
 {
     // [Bar Character Definition Class]
     class Bar

@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Code_39.Renderer;
-
-namespace Code_39.Encoder
+﻿namespace Code_39.Encoder
 {
     // [Barcode Encoder Engine Class]
     class Encoder

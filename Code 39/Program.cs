@@ -1,5 +1,4 @@
 ﻿using Code_39.Encoder;
-using System;
 
 namespace Code_39
 {
@@ -9,19 +8,19 @@ namespace Code_39
         {
             // Let's Code Here
             Console.Write("Input: ");
-            string inp = Encoder.Encoder.Clean(Console.ReadLine());
+            string input = Encoder.Encoder.Clean(Console.ReadLine());
 
-            Code[] c = Encoder.Encoder.Encode(inp);
+            Code[] code = Encoder.Encoder.Encode(input);
 
-            c = Encoder.Encoder.AddStartCharacter(c);
-            c = Encoder.Encoder.AddEndCharacter(c);
+            code = Encoder.Encoder.AddStartCharacter(code);
+            code = Encoder.Encoder.AddEndCharacter(code);
 
             Renderer.Renderer.SetBarcodeMode();
-            Renderer.Renderer.RenderBarcode(c);
-            Renderer.Renderer.RenderBarcode(c);
-            Renderer.Renderer.RenderBarcode(c);
-            Renderer.Renderer.RenderBarcode(c);
-            Renderer.Renderer.RenderBarcode(c);
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
+            Renderer.Renderer.RenderBarcode(code);
             Renderer.Renderer.SetTextMode();
         }
     }
