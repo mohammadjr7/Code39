@@ -310,9 +310,6 @@
             if (text != "")
             {
                 buffer = text.Replace("*", "-");
-                buffer = text.Replace("_", "-");
-                buffer = text.Replace("(", "/");
-                buffer = text.Replace(")", "/");
                 return buffer;
             }
             else

@@ -46,14 +46,34 @@ namespace Code_39.Renderer
             Console.WriteLine();
         }
 
+        // Call Console Barcode Renderer from Codepoint Array, n times
+        public static void RenderBarcode(int height, Code[] codes)
+        {
+            for (int i = 0; i < height; i++)
+            {
+                RenderBarcode(codes);
+            }
+        }
+
         // Barcode Quiet Zone Renderer
         public static void RenderQuietZone()
         {
             Bar.QuietZone();
         }
 
+        // Barcode Quiet Zone Renderer, n times
+        public static void RenderQuietZone(int width)
+        {
+            for (int i = 0; i < ((width * 6) + 2); i++) // Length of codes * bars + start/stop
+            {
+                Console.Write(Bar.WIDE_SPACE);
+            }
+            Console.WriteLine();
+        }
+
 
         /* Validation Methdos: */
+        // Validate characters
         public static void ValidateBarcode(Code[] codes, string text)
         {
             for (int i = 0; i < codes.Length; i++)
