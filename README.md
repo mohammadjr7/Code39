@@ -30,6 +30,7 @@ Software accepts only one argument to generate barcode from. It can be a single 
 
 Software also provides a basic validation of inputs to check illegal characters:  
 
+![Code 39 Generator check illegal characters!](images/error.png "Code 39 Generate Error")
 ![Code 39 Generator check illegal characters!](images/hey.png "Code 39 Generate Hey")
 
 ### System Variables also accepted
