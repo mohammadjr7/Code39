@@ -14,7 +14,7 @@ namespace Code_39
                 Console.WriteLine("Usage: \"Code 39.exe\" [message]");
                 Console.WriteLine();
                 Console.WriteLine("Symbol set contains 43 characters:");
-                Console.WriteLine("\tA-Z, 0-9, and -, ., *, $, /, +, %, SPACE.");
+                Console.WriteLine("\tA-Z, 0-9, and -, ., $, /, +, %, SPACE.");
                 Console.WriteLine();
                 Console.WriteLine("Examples: ");
                 Console.WriteLine("\t\"Code 39.exe\" Hello");
