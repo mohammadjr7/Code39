@@ -10,7 +10,7 @@ Generates Code39 Barcodes in console.
 Usage: "Code 39.exe" [message]
 
 Symbol set contains 43 characters:
-        A-Z, 0-9, and -, ., *, $, /, +, %, SPACE.
+        A-Z, 0-9, and -, ., $, /, +, %, SPACE.
 
 Examples:
         "Code 39.exe" Hello
