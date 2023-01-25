@@ -1,5 +1,5 @@
 # Code 39
-Code39 Console Barcode generator written with C#.
+Code39 Console Barcode generator written with C#. <br/>
 This software uses **.NET version '6.0.0'** framework.
 
 # How to use
